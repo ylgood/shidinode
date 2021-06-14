@@ -1,0 +1,25 @@
+{
+  "name": "shidinode",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node bin/www",
+    "dev": "./node_modules/.bin/nodemon bin/www",
+    "prd": "pm2 start bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "ejs": "~2.3.3",
+    "formdata-node": "^2.4.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.2.0"
+  },
+  "devDependencies": {
+    "koa-body": "^4.2.0",
+    "nodemon": "^1.19.1"
+  }
+}
